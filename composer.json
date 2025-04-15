@@ -24,7 +24,6 @@
         "hyperf/database": "*",
         "hyperf/db-connection": "*",
         "hyperf/redis": "*",
-        "hyperf/process": "*",
-        "hyperf/metric": "*"
+        "hyperf/process": "*"
     }
 }
