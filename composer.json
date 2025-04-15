@@ -1,0 +1,30 @@
+{
+    "name": "soraca/messagebus",
+    "description": "messagebus include mysql, redis and channel stream for hyperf",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Soraca\\MessageBus\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "soraca",
+            "email": "420921698@qq.com"
+        }
+    ],
+    "minimum-stability": "alpha",
+    "require": {
+        "php": ">=8.0",
+        "hyperf/di": "*",
+        "hyperf/logger": "*",
+        "hyperf/coroutine": "*",
+        "hyperf/config": "*",
+        "hyperf/database": "*",
+        "hyperf/db-connection": "*",
+        "hyperf/redis": "*",
+        "hyperf/process": "*",
+        "hyperf/metric": "*"
+    }
+}
